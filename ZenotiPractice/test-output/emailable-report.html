@@ -1,0 +1,61 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="7">Test Suite-1</th></tr>
+<tr><td><a href="#t0">Test Case-1</a></td><td class="num">1</td><td class="num attn">1</td><td class="num attn">1</td><td class="num">14,677</td><td></td><td></td></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Test Suite-1</th></tr></tbody><tbody id="t0"><tr><th colspan="4">Test Case-1 &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">src_test_java.GoogleTest</td><td><a href="#m0">afterMethod</a></td><td rowspan="1">1606417615002</td><td rowspan="1">82</td></tr><tr><th colspan="4">Test Case-1 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">src_test_java.GoogleTest</td><td><a href="#m1">navigatingToAccounts</a></td><td rowspan="1">1606417609497</td><td rowspan="1">5495</td></tr><tr><th colspan="4">Test Case-1 &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="4">src_test_java.GoogleTest</td><td><a href="#m2">afterClass</a></td><td rowspan="1">1606417615105</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m3">afterMethod</a></td><td rowspan="1">1606417615102</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m4">afterSuite</a></td><td rowspan="1">1606417615165</td><td rowspan="1">0</td></tr><tr class="skippedeven"><td><a href="#m5">navigateToGoogleApps</a></td><td rowspan="1">1606417615090</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test Case-1 &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">src_test_java.GoogleTest</td><td><a href="#m6">newTest</a></td><td rowspan="1">1606417615096</td><td rowspan="1">0</td></tr><tr><th colspan="4">Test Case-1 &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">src_test_java.GoogleTest</td><td><a href="#m7">navigatingToAccounts</a></td><td rowspan="1">1606417602829</td><td rowspan="1">6111</td></tr></tbody>
+</table>
+<h2>Test Case-1</h2><h3 id="m0">src_test_java.GoogleTest#afterMethod</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;GGKU5DELL1020&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SHIULE~1.MAI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bada0945a4f79a468ca9b3e2f5cca38c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at src_test_java.GoogleTest.afterMethod(GoogleTest.java:111)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">src_test_java.GoogleTest#navigatingToAccounts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>//span[text()=&apos;Account&apos;]</td><td>Google Account</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">java.lang.AssertionError: expected [Google Account] but found []
+	at src_test_java.GoogleTest.navigatingToAccounts(GoogleTest.java:80)
+... Removed 31 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">src_test_java.GoogleTest#afterClass</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m3">src_test_java.GoogleTest#afterMethod</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">src_test_java.GoogleTest#afterSuite</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">src_test_java.GoogleTest#navigateToGoogleApps</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m6">src_test_java.GoogleTest#newTest</h3><table class="result"><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=87.0.4280.66)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:25:48&apos;
+System info: host: &apos;GGKU5DELL1020&apos;, ip: &apos;192.168.0.6&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_172&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 87.0.4280.66, chrome: {chromedriverVersion: 86.0.4240.22 (398b0743353ff..., userDataDir: C:\Users\SHIULE~1.MAI\AppDa...}, goog:chromeOptions: {debuggerAddress: localhost:57601}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: bada0945a4f79a468ca9b3e2f5cca38c
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+	at org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:609)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteNavigation.back(RemoteWebDriver.java:849)
+	at src_test_java.GoogleTest.afterMethod(GoogleTest.java:111)
+... Removed 32 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m7">src_test_java.GoogleTest#navigatingToAccounts</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>//span[text()=&apos;Gmail&apos;]</td><td>Gmail - Email from Google</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>

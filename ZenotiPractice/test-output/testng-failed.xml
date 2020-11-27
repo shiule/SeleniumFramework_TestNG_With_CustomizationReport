@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Test Suite-1]">
+  <listeners>
+    <listener class-name="src_main_java.customListeners"/>
+  </listeners>
+  <test thread-count="5" name="Test Case-1(failed)">
+    <classes>
+      <class name="src_test_java.GoogleTest">
+        <methods>
+          <include name="navigateToGoogleApps"/>
+          <include name="navigatingToAccounts" invocation-numbers="1"/>
+          <include name="newTest"/>
+          <include name="launchBrowser"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+          <include name="afterSuite"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- src_test_java.GoogleTest -->
+    </classes>
+  </test> <!-- Test Case-1(failed) -->
+</suite> <!-- Failed suite [Test Suite-1] -->

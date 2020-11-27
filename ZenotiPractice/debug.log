@@ -1,0 +1,20 @@
+[1120/201217.326:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1120/201217.328:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1120/201217.328:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1120/201217.328:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1120/201217.328:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1120/201217.328:ERROR:process_reader_win.cc(151)] SuspendThread: Access is denied. (0x5)
+[1120/201217.328:ERROR:exception_snapshot_win.cc(99)] thread ID 3424 not found in process
+[1122/141107.966:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1122/141332.567:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1123/144722.684:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1123/221103.964:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1123/234551.473:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1123/234551.475:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1125/123618.160:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1125/213415.764:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1125/213415.765:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
+[1127/002923.207:ERROR:process_info.cc(359)] UncheckedAllocate
+[1127/010931.797:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1127/192634.801:ERROR:directory_reader_win.cc(43)] FindFirstFile: The system cannot find the path specified. (0x3)
+[1127/192634.801:ERROR:prune_crash_reports.cc(36)] PruneCrashReportDatabase: Failed to get pending reports
